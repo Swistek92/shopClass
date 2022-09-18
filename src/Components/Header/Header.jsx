@@ -34,7 +34,7 @@ export class Header extends Component {
       <header className={styles.container}>
         <p className={styles.links}>{this.categories()}</p>
 
-        <Link to='/'>
+        <Link to='/shopClass'>
           <img src={Logo} alt='logo' />
         </Link>
         <div className={styles.buttons}>
