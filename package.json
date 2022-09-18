@@ -1,5 +1,6 @@
 {
-  "name": "frontend",
+  "name": "shopClass",
+  "homepage": "https://swistek92.github.io/shopClass",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
