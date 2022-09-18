@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/shopClass/static/css/main.f049facf.css",
+    "main.js": "/shopClass/static/js/main.c2184cea.js",
+    "static/media/Logo.svg": "/shopClass/static/media/Logo.338a480f14d7d6fbb01edb7d9936432d.svg",
+    "index.html": "/shopClass/index.html",
+    "main.f049facf.css.map": "/shopClass/static/css/main.f049facf.css.map",
+    "main.c2184cea.js.map": "/shopClass/static/js/main.c2184cea.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f049facf.css",
+    "static/js/main.c2184cea.js"
+  ]
+}
