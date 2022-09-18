@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 30px 10%;
+  text-transform: uppercase;
+  color: #1d1f22;
+}
+
+/* .links ul li {
+  list-style-type: none;
+} */
+.links a {
+  text-decoration: none;
+}
+
+.links li {
+  display: inline-block;
+  padding: 10px 20px;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.links li:hover {
+  border-radius: 5px;
+  background-color: rgb(29, 31, 34, 0.1);
+}
+
+.buttons {
+  list-style: none;
+  display: flex;
+  padding: 0 10px;
+  cursor: pointer;
+}

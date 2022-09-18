@@ -1,0 +1,92 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px 30px;
+  text-align: center;
+  min-height: 200px;
+}
+
+.imgs {
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  width: 20%;
+  max-height: 70vh;
+}
+.imgs img {
+  max-height: 10vh;
+  width: 100%;
+  object-fit: scale-down;
+  scale: calc(0.9);
+}
+.imgs img:hover {
+  cursor: pointer;
+  /* border: 1px solid black; */
+  scale: calc(1);
+}
+
+.img {
+  width: 30%;
+}
+.img img {
+  max-width: 100%;
+  scale: calc(0.9);
+}
+.img img:hover {
+  max-height: 60vh;
+  scale: calc(1);
+}
+
+.details {
+  text-align: left;
+  width: 35%;
+  background-color: rgb(201, 201, 201);
+  padding: 20px;
+}
+.details p {
+  margin: 1vh;
+}
+
+.details button {
+  width: 80%;
+  margin-left: 10%;
+  color: #fff;
+  background-color: #5ece7b;
+  border: none;
+  padding: 10px;
+}
+
+.details button:hover {
+  background-color: #5ece7c9f;
+}
+
+.attributes {
+  font-size: 12px;
+  display: inline;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+  flex-direction: row;
+}
+.attributes:hover {
+  color: #fff;
+  background-color: black;
+  cursor: pointer;
+}
+.colorAttribute {
+  display: inline;
+  min-height: 10px;
+  max-width: 10px;
+  border: none;
+  margin: 10px;
+  padding: 2px;
+  cursor: pointer;
+}
+
+.colorAttribute:hover {
+  scale: calc(1.25);
+}

@@ -1,0 +1,99 @@
+.header {
+  width: 299px;
+  height: 68px;
+  left: calc(50% - 299px / 2 - 469.5px);
+  top: calc(50% - 68px / 2 - 562.5px);
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  color: #1d1f22;
+  margin: 0 50px;
+}
+.main {
+}
+
+.cards {
+  /* transition: all 0.5s ease-in; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25vw, 1fr));
+
+  padding: 20px;
+  grid-gap: 2rem;
+  animation: opacity 1s ease-in;
+}
+
+.cards:hover {
+  /* transform: scale(1.05); */
+}
+
+.card {
+  /* animation: opacity 2s ease-in; */
+  /* position: rselative; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: left;
+  padding: 10px;
+  min-height: 100px;
+  max-height: 60vh;
+  max-width: 50vh;
+  /* overflow: hidden; */
+  /* cursor: pointer; */
+  margin: 0 auto;
+}
+
+.card:hover {
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.48);
+}
+
+.img {
+  width: 100%;
+  display: block;
+  max-height: 70%;
+  transition: all 0.5s ease-in;
+  /* transform: scale(0.9); */
+}
+.img:hover {
+  /* transform: scale(1); */
+}
+
+.title {
+  /* margin-top: 5px; */
+  height: 29px;
+  font-weight: 300;
+}
+
+.price {
+  height: 29px;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+.link {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  color: black;
+}
+
+.btnDetails {
+  display: flex;
+  position: relative;
+  margin-left: auto;
+  bottom: 30px;
+
+  cursor: pointer;
+  transition: all 0.1s ease-in;
+}
+.btnDetails:hover {
+  transform: scale(1.2);
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
